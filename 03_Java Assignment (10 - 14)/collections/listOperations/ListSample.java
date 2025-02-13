@@ -1,4 +1,4 @@
-package collections;
+package collections.listOperations;
 
 import java.util.*;
 
