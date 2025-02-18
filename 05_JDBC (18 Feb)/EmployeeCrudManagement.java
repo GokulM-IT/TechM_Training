@@ -69,7 +69,7 @@ public class EmployeeCrudManagement {
         boolean isRun = true;
         do {
             System.out.println();
-            System.out.println("Select which operation you want to perform? \n1.Display\n2.Insert\n3.Update\n4.Delete\n5.Exit\n(eg. If 'Display' Enter 1)");
+            System.out.println("Select which operation you want to perform? \n1.Display\n2.Insert\n3.Update\n4.Delete\n5.Exit\n(eg. If 'Display' type '1')");
             int operation = in.nextInt();
             switch (operation) {
                 case 1 -> displayEmployee();
@@ -113,7 +113,7 @@ public class EmployeeCrudManagement {
 //        boolean isRun = true;
 //        do {
 //            System.out.println();
-//            System.out.println("Select which operation you want to perform? \n1.Display\n2.Insert\n3.Update\n4.Delete\n5.Exit\n(eg. If 'Display' Enter 1)");
+//            System.out.println("Select which operation you want to perform? \n1.Display\n2.Insert\n3.Update\n4.Delete\n5.Exit\n(eg. If 'Display' type 'display')");
 //            String operation = in.next();
 //            switch (operation.toLowerCase()) {
 //                case "display" -> displayEmployee();
