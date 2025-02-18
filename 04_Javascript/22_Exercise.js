@@ -1,4 +1,4 @@
-// 2. Pass a parameter, and display the factors of that parameter in the function
+// 22. Pass a parameter, and display the factors of that parameter in the function
 
 function displayFactors(number) {
     console.log(`Factors of ${number}:`);

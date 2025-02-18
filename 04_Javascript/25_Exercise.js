@@ -1,4 +1,4 @@
-// 5. Create a object called student with properties id, name, department, college and email.Write a function to access the properties and display them. Invoke the function to display the details
+// 25. Create a object called student with properties id, name, department, college and email.Write a function to access the properties and display them. Invoke the function to display the details
 // Write another function to access the properties id, name and email and display them. Invoke the function to display the details
 // Add a property called address, as another object, with properties as doorNo, street, area and pin_code
 // Add a function to display the details of the student with address.

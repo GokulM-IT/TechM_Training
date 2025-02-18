@@ -1,4 +1,4 @@
-// 3.  Pass a number, and find if the sum of their digits is an even or odd number
+// 23. Pass a number, and find if the sum of their digits is an even or odd number
 
 function sumOfDigitsEvenOrOdd(number) {
     let sum = 0;

@@ -1,4 +1,5 @@
 // 3. Create a variable as const, check if its a prime number or not, and display the result accordingly
+
 const numberToCheck = 17;
 let isPrime = true;
 

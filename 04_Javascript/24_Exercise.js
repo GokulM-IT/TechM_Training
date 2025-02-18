@@ -1,4 +1,4 @@
-// 4.  Create a arrow function without parameters, to choose the operation among add, subtract, multiply and divide, using switch statement.
+// 24. Create a arrow function without parameters, to choose the operation among add, subtract, multiply and divide, using switch statement.
 // On choosing the operation, it has to invoke the corresponding method (as expression) with parameters and display the results accordingly, like, sum for add, difference for subtract, product for multiply, quotient and reminder for divide
 
 const performOperation = () => {

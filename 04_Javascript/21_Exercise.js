@@ -1,4 +1,4 @@
-// 1. Without passing parameters, display the multiplication table with two variables , one variable for the number , and other for the limit.
+// 21. Without passing parameters, display the multiplication table with two variables , one variable for the number , and other for the limit.
 
 function displayMultiplicationTable() {
     let number = 5;

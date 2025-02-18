@@ -1,8 +1,4 @@
-function sum(x, y) { 
-    return x + y; 
-}
-console.log(sum(6, 9));
-
+// Function expression
 var sum = function (x, y) {
     return x + y;
 };

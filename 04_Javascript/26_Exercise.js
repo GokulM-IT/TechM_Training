@@ -1,3 +1,4 @@
+// Closure
 function parent() {
     let count = 0;
     return function() {

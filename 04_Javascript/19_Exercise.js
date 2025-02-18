@@ -1,14 +1,16 @@
-// Creating objects in multiple line
-const person = {
+// Creating objects in single line
+const employee = {
   firstName: "John",
   lastName: "Doe",
   age: 50,
   eyeColor: "blue"
 };
-console.log(person)
 
+console.log(employee)
+
+// Creating objects in multiple line
 // Create an Object
-// const person = {};
+const person = {};
 
 // Add Properties
 person.firstName = "John";
