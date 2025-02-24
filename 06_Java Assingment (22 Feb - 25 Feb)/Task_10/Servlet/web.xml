@@ -1,0 +1,9 @@
+<servlet>
+    <servlet-name>DisplayServlet</servlet-name>
+    <servlet-class>DisplayServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DisplayServlet</servlet-name>
+    <url-pattern>/display</url-pattern>
+</servlet-mapping>
