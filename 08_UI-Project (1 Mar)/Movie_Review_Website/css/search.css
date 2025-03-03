@@ -1,0 +1,203 @@
+#form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#form-container input {
+    width: 350px;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 11px 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    outline: none;
+    background: #ffffff;
+    font-size: 1.1em;
+    color: #333333;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#form-container p {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #808080;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+::placeholder {
+    font-size: 0.9em;
+    color: #999999;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+}
+
+#btn-container {
+    text-align: center;
+}
+
+#form-container button {
+    font-size: 1rem;
+    padding: 0.5em 1.5em;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #7151ed;
+    border: 2px solid #7151ed;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+#form-container button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: all 0.6s ease-in-out;
+}
+
+#form-container button:hover::before {
+    left: 100%;
+}
+
+#form-container button:hover {
+    cursor: pointer;
+    background-color: #7b68ee;
+    border-color: #7b68ee;
+    color: #ffffff;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#container.no-results-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-results {
+    text-align: center;
+    color: #ff0000;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    padding: 1em;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+#container {
+    width: 100%;
+    padding: 0 10rem;
+    margin: 18px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    #container {
+        padding: 0 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#container div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 0.1em;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#container div img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1em;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+#container div img:hover {
+    transform: rotate(360deg);
+}
+
+@keyframes flipBounce {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    50% {
+        transform: perspective(1000px) rotateY(90deg) scale(1.1);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(180deg);
+    }
+}
+
+#container div p {
+    margin: 0.2em 0.9em;
+    text-align: left;
+    color: #333333;
+    font-size: 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#container div p.title {
+    margin: 0.2em 0.9em;
+    text-align: left;
+    color: #333333;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+#container div p.rating,
+#container div p.year {
+    display: inline-block;
+    margin: 0.2em 0.9em;
+    text-align: left;
+    color: #999999;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+#container div p.year {
+    color: #8a2be2;
+}
+
+@media (max-width: 768px) {
+    #container div p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    #container div p {
+        font-size: 0.8em;
+    }
+}

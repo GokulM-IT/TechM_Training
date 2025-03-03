@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/7hbGc3LT/tv.png">
+    <title>Movies</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/reviews.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Merienda:wght@300..900&family=Monoton&family=Fantastic&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="./index.html" class="logo">Movies</a>
+        <div class="menu-toggle">☰</div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./search.html">Search</a></li>
+            <li><a href="./reviews.html">Reviews</a></li>
+        </ul>
+    </nav>
+    <div class="intro-text">
+        <h2>Discover the Best Movies and Animes</h2>
+        <p>Explore our curated list of top movies and animes, handpicked just for you.</p>
+    </div>
+    <div class="section-title">
+        <hr>
+        <span>TOP MOVIES</span>
+        <hr>
+    </div>
+    <div id="movies-container"></div>
+    <div class="section-title">
+        <hr>
+        <span>TOP ANIMES</span>
+        <hr>
+    </div>
+    <div id="animes-container"></div>
+    <footer>
+        <span>Copyright &copy; 2024 • All right reserved</span>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/search.js"></script>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

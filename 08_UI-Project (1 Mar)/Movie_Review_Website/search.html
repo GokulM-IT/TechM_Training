@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/7hbGc3LT/tv.png">
+    <title>Movies</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Merienda:wght@300..900&family=Monoton&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="./index.html" class="logo">Movies</a>
+        <div class="menu-toggle">☰</div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./search.html">Search</a></li>
+            <li><a href="./reviews.html">Reviews</a></li>
+        </ul>
+    </nav>
+    <section id="form-container">
+        <form>
+            <p>SEARCH BY MOVIE NAME</p>
+            <input name='query' type="text" placeholder="Search Movie" autocomplete="off">
+            <div id="btn-container">
+                <button>Search</button>
+            </div>
+        </form>
+    </section>
+    <div id="container"></div>
+    <footer>
+        <span>Copyright &copy; 2024 • All right reserved</span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./js/search.js"></script>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

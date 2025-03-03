@@ -1,0 +1,308 @@
+{
+  "movies": [
+    {
+      "Title": "VidaaMuyarchi",
+      "Year": "2025",
+      "imdbID": "tt18926098",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjYxMDE2OTAtNmQ5Yi00ZTcwLTgwOGQtZThmOTdhMzFhMjRiXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Leo",
+      "Year": "2023",
+      "imdbID": "tt15654328",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2EzNTMzYmMtMTAxMS00M2RhLWFhZjgtMGUxY2U3YjMyMTU3XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Lion King",
+      "Year": "2019",
+      "imdbID": "tt6105098",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Amaran",
+      "Year": "2024",
+      "imdbID": "tt27118357",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTAzMGQ2MGItMjk5OC00YWIwLThmMjUtYmNjMTIxNzVlZWQ4XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Kanguva",
+      "Year": "2024",
+      "imdbID": "tt22036406",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTQyMzQ3ZTQtNTFlZS00ZmVmLWEzYjMtZTFhZjU1NjYxZDVjXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Shawshank Redemption",
+      "Year": "1994",
+      "imdbID": "tt0111161",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Pursuit of Happyness",
+      "Year": "2006",
+      "imdbID": "tt0454921",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Captain America: Civil War",
+      "Year": "2016",
+      "imdbID": "tt3498820",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Avatar: The Way of Water",
+      "Year": "2022",
+      "imdbID": "tt1630029",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNmQxNjZlZTctMWJiMC00NGMxLWJjNTctNTFiNjA1Njk3ZDQ5XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Interstellar",
+      "Year": "2014",
+      "imdbID": "tt0816692",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg"
+    }
+  ],
+  "animes": [
+    {
+      "Title": "Your Name.",
+      "Year": "2016",
+      "imdbID": "tt5311514",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjI1ODZkYTgtYTY3Yy00ZTJkLWFkOTgtZDUyYWM4MzQwNjk0XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Boruto: Naruto the Movie",
+      "Year": "2015",
+      "imdbID": "tt4618398",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2Y0NGE5YjgtNzFlZS00NzJjLThlMDQtZDZhNjQxNTc2NmUwXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "One Piece Film: Red",
+      "Year": "2022",
+      "imdbID": "tt16183464",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTdjY2YxYTQtNjIzYy00ZDczLThhNTUtNmY2ZWNkZjZiMTYzXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "The Witcher: Nightmare of the Wolf",
+      "Year": "2021",
+      "imdbID": "tt11657662",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODQzNDE4N2ItZDAwMC00YzA3LTkwMTEtZDgyMjE3M2ZiY2NiXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "A Silent Voice: The Movie",
+      "Year": "2016",
+      "imdbID": "tt5323662",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTFiNzRiOWEtYTQwNy00NmRiLWE0ZWYtNTE0YjExZjFmZjkwXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Chainsaw Man",
+      "Year": "2022",
+      "imdbID": "tt13616990",
+      "Type": "series",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGY2ZTM2MWMtNzA2OS00ZjJlLWIwZTMtMDBhN2EwYjZjZjEyXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Look Back",
+      "Year": "2024",
+      "imdbID": "tt31711040",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWU3YTkxMjYtYTdlMi00NDQ1LThiMjQtNzhmMTFlZmE2ZTU0XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
+      "Year": "2020",
+      "imdbID": "tt11032374",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzEzYjhkYTctMWNmZS00MTc5LWI4OWUtZjFkNzNkYTNkMTJlXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "From Up on Poppy Hill",
+      "Year": "2011",
+      "imdbID": "tt1798188",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWVjMWRhMzYtOGRmMi00ODExLTk2M2YtZDhjNGY5OWQ5NDY4XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "Title": "Ocean Waves",
+      "Year": "1993",
+      "imdbID": "tt0108432",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGQ4NmQ0NGYtMTk0NS00YmFjLTk0MmItNDY5OGYzMzRhYjI0XkEyXkFqcGc@._V1_SX300.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "Title": "The Shawshank Redemption",
+      "Review": "A mind-bending thriller with stunning visuals and a complex plot.",
+      "Rating": 5,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "John Doe",
+          "comment": "An absolute masterpiece!"
+        },
+        {
+          "username": "Jane Smith",
+          "comment": "A timeless classic."
+        }
+      ]
+    },
+    {
+      "Title": "The Pursuit of Happyness",
+      "Review": "An intense and gripping superhero film with a standout performance by Heath Ledger.",
+      "Rating": 5,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "Alice Wonder",
+          "comment": "Incredibly inspiring!"
+        },
+        {
+          "username": "Bob Builder",
+          "comment": "A must-watch for everyone."
+        }
+      ]
+    },
+    {
+      "Title": "Captain America: Civil War",
+      "Review": "A fun and action-packed superhero team-up that delivers on all fronts.",
+      "Rating": 4,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "Steve Rogers",
+          "comment": "Action-packed and thrilling!"
+        },
+        {
+          "username": "Tony Stark",
+          "comment": "Great movie but could have been better."
+        }
+      ]
+    },
+    {
+      "Title": "Avatar: The Way of Water",
+      "Review": "A visually stunning film with groundbreaking special effects.",
+      "Rating": 4,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNmQxNjZlZTctMWJiMC00NGMxLWJjNTctNTFiNjA1Njk3ZDQ5XkEyXkFqcGc@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "Jake Sully",
+          "comment": "Amazing visuals!"
+        },
+        {
+          "username": "Neytiri",
+          "comment": "A visual treat but the story could be better."
+        }
+      ]
+    },
+    {
+      "Title": "Interstellar",
+      "Review": "A visually stunning and emotionally powerful sci-fi epic.",
+      "Rating": 5,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "Coop",
+          "comment": "Mind-blowing and emotional!"
+        },
+        {
+          "username": "Murph",
+          "comment": "A masterpiece of sci-fi."
+        }
+      ]
+    },
+    {
+      "Title": "One Piece Film: Red",
+      "Review": "A magical and enchanting animated film with beautiful animation and a touching story.",
+      "Rating": 5,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTdjY2YxYTQtNjIzYy00ZDczLThhNTUtNmY2ZWNkZjZiMTYzXkEyXkFqcGc@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "Luffy",
+          "comment": "An epic adventure!"
+        },
+        {
+          "username": "Zoro",
+          "comment": "Loved every moment of it."
+        }
+      ]
+    },
+    {
+      "Title": "Ocean Waves",
+      "Review": "A heartwarming and charming animated film with lovable characters.",
+      "Rating": 5,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGQ4NmQ0NGYtMTk0NS00YmFjLTk0MmItNDY5OGYzMzRhYjI0XkEyXkFqcGc@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "Hana",
+          "comment": "Beautiful and touching."
+        },
+        {
+          "username": "Rikako",
+          "comment": "A lovely story."
+        }
+      ]
+    },
+    {
+      "Title": "Your Name",
+      "Review": "A beautifully animated and emotionally resonant film with a unique story.",
+      "Rating": 5,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjI1ODZkYTgtYTY3Yy00ZTJkLWFkOTgtZDUyYWM4MzQwNjk0XkEyXkFqcGc@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "Taki",
+          "comment": "A beautiful love story."
+        },
+        {
+          "username": "Mitsuha",
+          "comment": "Simply amazing."
+        }
+      ]
+    },
+    {
+      "Title": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
+      "Review": "A groundbreaking and visually stunning animated film with a complex plot.",
+      "Rating": 4,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzEzYjhkYTctMWNmZS00MTc5LWI4OWUtZjFkNzNkYTNkMTJlXkEyXkFqcGc@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "Tanjiro",
+          "comment": "Incredible animation!"
+        },
+        {
+          "username": "Nezuko",
+          "comment": "Loved the story and characters."
+        }
+      ]
+    },
+    {
+      "Title": "Chainsaw Man",
+      "Review": "A visually stunning and thought-provoking animated film with a powerful message.",
+      "Rating": 5,
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGY2ZTM2MWMtNzA2OS00ZjJlLWIwZTMtMDBhN2EwYjZjZjEyXkEyXkFqcGc@._V1_SX300.jpg",
+      "userReview": [
+        {
+          "username": "Denji",
+          "comment": "A unique and thrilling experience."
+        },
+        {
+          "username": "Power",
+          "comment": "Absolutely loved it!"
+        }
+      ]
+    }
+  ]
+}
