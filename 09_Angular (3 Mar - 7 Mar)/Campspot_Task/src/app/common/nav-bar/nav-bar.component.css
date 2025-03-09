@@ -1,0 +1,118 @@
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+
+    #nav-bar #nav-title {
+        font-size: 1.2em;
+    }
+}
+
+.popup-disable {
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    right: 7rem;
+    top: 4rem;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    transition: 1s ease-in;
+}
+
+.popup a {
+    text-decoration: none;
+}
+
+#nav-bar {
+    background-color: #ffffff;
+    height: 80px;
+    z-index: 1000;
+}
+
+@media (min-width: 968px) and (max-width: 1024px) {
+    #nav-bar {
+        height: 60px;
+    }
+}
+
+#nav-title img {
+    width: 45px;
+}
+
+.user-img {
+    width: 2.5rem;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.img-container {
+    width: 2.5rem;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+#nav-bar #space {
+    width: 70px;
+}
+
+#nav-bar .navbar-nav:nth-of-type(2) {
+    font-size: 0.9em;
+    cursor: pointer;
+    border: 1px solid #63636333;
+    box-shadow: #63636333 0px 2px 8px 0px;
+    transition: 0.3s ease;
+}
+
+#nav-bar .navbar-nav:nth-of-type(2):hover {
+    box-shadow: #63636333 0px 4px 9px 1px;
+}
+
+@media (max-width: 991px) {
+    #nav-bar .navbar-nav:nth-of-type(2) {
+        all: unset;
+    }
+
+    #nav-bar .navbar-nav:nth-of-type(2),
+    .nav-link {
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-bottom: 0.8em !important;
+        border: none !important;
+        color: #000000 !important;
+    }
+
+    .home-anchor {
+        margin-top: 0.8em !important;
+    }
+}
+
+@media (min-width: 991px) {
+    #sm-display {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    #lg-display {
+        display: none;
+    }
+
+    #sm-display {
+        color: #cc0045;
+        font-size: 1.3em;
+    }
+
+    #nav-bar {
+        height: auto;
+    }
+}

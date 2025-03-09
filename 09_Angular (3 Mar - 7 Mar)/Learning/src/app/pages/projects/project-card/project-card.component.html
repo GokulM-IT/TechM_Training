@@ -1,0 +1,27 @@
+<div class="project-card card">
+        <img [src]="imagePath" class="card-img-top project-card-img" [alt]="project.name">
+        <div class="card-body project-card-body">
+                <h5 class="card-title project-card-title">{{ project.name }}</h5>
+                <p class="card-text project-card-description">{{ project.description }}</p>
+                <p class="card-text">
+                        <small class="text-muted project-card-detail">
+                                <strong>Status:</strong> {{ project.status }}
+                        </small>
+                </p>
+                <p class="card-text">
+                        <small class="text-muted project-card-detail">
+                                <strong>Start Date:</strong> {{ project.startDate | date:'MMMM, yyyy' }}
+                        </small>
+                </p>
+                <p class="card-text">
+                        <small class="text-muted project-card-detail">
+                                <strong>End Date:</strong> {{ project.endDate | date:'MMMM, yyyy' }}
+                        </small>
+                </p>
+                <p class="card-text">
+                        <small class="text-muted project-card-detail">
+                                <strong>Team Size:</strong> {{ project.teamSize }}
+                        </small>
+                </p>
+        </div>
+</div>

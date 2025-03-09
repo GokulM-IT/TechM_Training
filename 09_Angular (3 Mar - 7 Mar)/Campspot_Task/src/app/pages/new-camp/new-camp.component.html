@@ -1,0 +1,61 @@
+<div class="info" *ngIf="isSubmitted">
+    <div class="info__icon">
+        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="m12 1.5c-5.79844 0-10.5 4.70156-10.5 10.5 0 5.7984 4.70156 10.5 10.5 10.5 5.7984 0 10.5-4.7016 10.5-10.5 0-5.79844-4.7016-10.5-10.5-10.5zm.75 15.5625c0 .1031-.0844.1875-.1875.1875h-1.125c-.1031 0-.1875-.0844-.1875-.1875v-6.375c0-.1031.0844-.1875.1875-.1875h1.125c.1031 0 .1875.0844.1875.1875zm-.75-8.0625c-.2944-.00601-.5747-.12718-.7808-.3375-.206-.21032-.3215-.49305-.3215-.7875s.1155-.57718.3215-.7875c.2061-.21032.4864-.33149.7808-.3375.2944.00601.5747.12718.7808.3375.206.21032.3215.49305.3215.7875s-.1155.57718-.3215.7875c-.2061.21032-.4864.33149-.7808.3375z"
+                fill="#393a37"></path>
+        </svg>
+    </div>
+    <div class="info__title">Camp launched successfully</div>
+    <div (click)="close()" class="info__close"><svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 20 20"
+            height="20">
+            <path fill="#393a37"
+                d="m15.8333 5.34166-1.175-1.175-4.6583 4.65834-4.65833-4.65834-1.175 1.175 4.65833 4.65834-4.65833 4.6583 1.175 1.175 4.65833-4.6583 4.6583 4.6583 1.175-1.175-4.6583-4.6583z">
+            </path>
+        </svg></div>
+</div>
+
+<div id="new-campsite-container" class="row justify-content-center">
+    <div class="custom-border remove-border col col-lg-6 p-4">
+        <div class="d-flex justify-content-center border-bottom mb-4">
+            <h4 class="pb-3 fw-bold">Launch a New Campsite</h4>
+        </div>
+        <form (ngSubmit)="onSubmit()">
+            <div class="mb-3">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="custom-hover custom-border form-control" id="Name" name="name"
+                    aria-describedby="Name" [(ngModel)]="enteredName" required />
+                <div class="error" *ngIf="errors.includes('Name should be at least three characters long')">
+                    Name should be at least three characters long
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input type="text" class="custom-hover custom-border form-control" id="price" name="price"
+                    aria-describedby="price" [(ngModel)]="enteredPrice" required />
+                <div class="error" *ngIf="errors.includes('Price must be a valid number')">
+                    Price must be a valid number
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="images" class="form-label">Images URL</label>
+                <input class="custom-hover custom-border form-control" type="text" id="images" name="imageUrl"
+                    aria-describedby="imageURL" [(ngModel)]="enteredImageUrl" required />
+                <div class="error" *ngIf="errors.includes('Please provide a valid URL for the image')">
+                    Please provide a valid URL for the image
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="location" class="form-label">Location</label>
+                <input type="text" class="custom-hover custom-border form-control" id="location" name="location"
+                    aria-describedby="location" [(ngModel)]="enteredLocation" required />
+                <div class="error" *ngIf="errors.includes('Location should be at least three characters long')">
+                    Location should be at least three characters long
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="btn-style col-12 p-2">Continue</button>
+            </div>
+        </form>
+    </div>
+</div>

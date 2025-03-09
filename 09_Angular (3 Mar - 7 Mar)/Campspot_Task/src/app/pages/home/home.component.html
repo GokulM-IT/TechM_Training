@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="main-content">
+        <div>
+            <h2>Discover the Best Campsites for Your Next Adventure!</h2>
+            <div class="main-content-para">Find the perfect campsite for your next getaway. Whether you're after peace,
+                adventure, or family
+                fun,
+                explore
+                top destinations with amazing amenities and breathtaking views. Your adventure begins here!</div>
+        </div>
+    </div>
+    <app-camps *ngFor="let camp of camps" [camp]="camp" class="col-md-3 mb-4"></app-camps>
+</div>

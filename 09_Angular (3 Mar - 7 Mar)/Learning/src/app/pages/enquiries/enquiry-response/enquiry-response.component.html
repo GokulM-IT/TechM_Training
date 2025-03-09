@@ -1,0 +1,51 @@
+<div class="container mt-5">
+    <form [formGroup]="enquiryForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label for="id" class="form-label">Enquiry ID</label>
+            <select id="id" class="form-select" formControlName="messageId" (change)="onIdChange($event)">
+                <option *ngFor="let id of ids; let i = index" [value]="i">{{ id }}</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-control" formControlName="email" [disabled]="true" />
+        </div>
+
+        <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" class="form-control" formControlName="subject" />
+            <div *ngIf="enquiryForm.get('subject')?.invalid && enquiryForm.get('subject')?.touched" class="text-danger">
+                Subject is required.
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" class="form-control" formControlName="message"></textarea>
+            <div *ngIf="enquiryForm.get('message')?.invalid && enquiryForm.get('message')?.touched" class="text-danger">
+                Message is required.
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="estimatedPrice" class="form-label">Estimated Price</label>
+            <input type="number" id="estimatedPrice" class="form-control" formControlName="estimatedPrice" />
+            <div *ngIf="enquiryForm.get('estimatedPrice')?.invalid && enquiryForm.get('estimatedPrice')?.touched"
+                class="text-danger">
+                Estimated Price is required.
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="duration" class="form-label">Duration</label>
+            <input type="text" id="duration" class="form-control" formControlName="duration" />
+            <div *ngIf="enquiryForm.get('duration')?.invalid && enquiryForm.get('duration')?.touched"
+                class="text-danger">
+                Duration is required.
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" [disabled]="enquiryForm.invalid">Submit</button>
+    </form>
+</div>

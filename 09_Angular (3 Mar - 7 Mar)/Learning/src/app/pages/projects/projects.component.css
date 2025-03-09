@@ -1,0 +1,70 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 6rem;
+}
+
+.first {
+    width: 50%;
+}
+
+.second {
+    width: 50%;
+}
+
+.alert {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert label {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.select {
+    width: 80%;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#team-size-range-min,
+#team-size-range-max {
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+#team-size-range-max {
+    margin-right: 0;
+}

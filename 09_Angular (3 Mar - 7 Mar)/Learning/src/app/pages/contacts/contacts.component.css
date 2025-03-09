@@ -1,0 +1,11 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+h3 {
+    margin-top: 2rem;
+}

@@ -1,0 +1,26 @@
+<h3 class="title">Enquiries</h3>
+
+<div class="alert-container">
+    <div class="alert alert-dark" role="alert">
+        <h2>Select Service Type</h2>
+        <select [(ngModel)]="selected" class="form-select text-center">
+            <option *ngFor="let service of serviceTypes" [value]="service">
+                {{ service }}
+            </option>
+        </select>
+    </div>
+</div>
+
+<div class="enquiries-container">
+    <div *ngFor="let enquiry of enquiryList | filterService:selected" class="enquiry-card mb-3">
+        <div class="enquiry-body">
+            <h5 class="enquiry-name">{{ enquiry.name }}</h5>
+            <p><strong>Email:</strong> {{ enquiry.email }}</p>
+            <p><strong>Service Type:</strong> {{ enquiry.serviceType | uppercase }}</p>
+            <p>{{ enquiry.message | highlight }}</p>
+        </div>
+    </div>
+</div>
+
+<h3 class="title">Respond to the enquires</h3>
+<app-enquiry-response></app-enquiry-response>

@@ -1,0 +1,28 @@
+<div id="login-signup" class="row justify-content-center">
+    <div class="form-container custom-border remove-border col col-lg-6 p-4">
+        <div class="d-flex justify-content-center border-bottom mb-4">
+            <h6 class="pb-3 fw-bold">Log in</h6>
+        </div>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <h5 class="mb-4 text-center">Welcome to Campspot</h5>
+            <div class="mb-3">
+                <input type="text" class="custom-hover custom-border common-placeholder form-control p-2" id="username"
+                    formControlName="username" placeholder="Username" aria-describedby="username" required>
+                <div *ngIf="username?.invalid && username?.touched" class="error">
+                    Please provide a valid username
+                </div>
+            </div>
+            <div class="mb-5">
+                <input type="password" class="custom-hover custom-border common-placeholder form-control p-2"
+                    id="password" formControlName="password" placeholder="Password" aria-describedby="password"
+                    required>
+                <div *ngIf="password?.invalid && password?.touched" class="error">
+                    Please provide a valid password
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="btn-style col-12 p-2" [disabled]="loginForm.invalid">Continue</button>
+            </div>
+        </form>
+    </div>
+</div>

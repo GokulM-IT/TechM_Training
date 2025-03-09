@@ -1,0 +1,112 @@
+{
+  "details": [
+    {
+      "location": "Kirkland, Washington",
+      "name": "Forest Canyon",
+      "price": "2201",
+      "stayDuration": "night",
+      "rating": 4.8,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722171256/Image_109_jhrn1i.jpg",
+      "id": "b240"
+    },
+    {
+      "location": "Banff, Canada",
+      "name": "Mountain Ridge",
+      "price": "3500",
+      "stayDuration": "night",
+      "rating": 4.2,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722171255/Image_110_b13mqo.jpg",
+      "id": "2883"
+    },
+    {
+      "location": "Queenstown, New Zealand",
+      "name": "Lake View Retreat",
+      "price": "4000",
+      "stayDuration": "night",
+      "rating": 4.9,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722171254/Image_108_kft9qe.jpg",
+      "id": "8591"
+    },
+    {
+      "location": "Kyoto, Japan",
+      "name": "Zen Garden Villa",
+      "price": "2800",
+      "stayDuration": "night",
+      "rating": 4.3,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722171250/Image_107_aqtcft.jpg",
+      "id": "a33d"
+    },
+    {
+      "location": "Santorini, Greece",
+      "name": "Blue Horizon Suite",
+      "price": "6500",
+      "stayDuration": "night",
+      "rating": 4.7,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722171250/Image_106_vdofa1.jpg",
+      "id": "7ded"
+    },
+    {
+      "location": "Paris, France",
+      "name": "Eiffel Tower Loft",
+      "price": "5000",
+      "stayDuration": "night",
+      "rating": 3.9,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722171247/Image_105_wlufpm.jpg",
+      "id": "17c8"
+    },
+    {
+      "location": "Reykjavik, Iceland",
+      "name": "Northern Lights Lodge",
+      "price": "3800",
+      "stayDuration": "night",
+      "rating": 4.7,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722171246/Image_104_xdmpbt.jpg",
+      "id": "2bc7"
+    },
+    {
+      "location": "Maui, Hawaii",
+      "name": "Tropical Escape",
+      "price": "4200",
+      "stayDuration": "night",
+      "rating": 4.1,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722171245/Image_103_cyc2pg.jpg",
+      "id": "8cee"
+    },
+    {
+      "location": "Dubai, UAE",
+      "name": "Luxury Desert Resort",
+      "price": "7000",
+      "stayDuration": "night",
+      "rating": 4.9,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722168134/Image_102_rsrrns.jpg",
+      "id": "9a39"
+    },
+    {
+      "location": "Venice, Italy",
+      "name": "Canal Side Palazzo",
+      "price": "3500",
+      "stayDuration": "night",
+      "rating": 3.8,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722168133/Image_101_snkdaf.jpg",
+      "id": "1e6f"
+    },
+    {
+      "location": "Cape Town, South Africa",
+      "name": "Table Mountain Lodge",
+      "price": "4500",
+      "stayDuration": "night",
+      "rating": 4.6,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722163855/Image_97_ucwuly.jpg",
+      "id": "7263"
+    },
+    {
+      "location": "Amalfi Coast, Italy",
+      "name": "Coastal Paradise Villa",
+      "price": "6200",
+      "stayDuration": "night",
+      "rating": 4.9,
+      "imageUrl": "https://res.cloudinary.com/dhgeqswqq/image/upload/v1722163854/Image_92_eso2ij.jpg",
+      "id": "4c30"
+    }
+  ]
+}

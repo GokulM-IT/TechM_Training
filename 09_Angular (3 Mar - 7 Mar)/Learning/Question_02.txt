@@ -1,0 +1,21 @@
+Create a component Enquiry-Form
+
+Create a Form containing the following
+fields
+
+Name
+Email
+ServiceType( possible values are
+six service titles that you find in the
+services api, Hard code it in Dropdown
+)(use select)
+Message(use text area)
+
+For each Form field use ng model
+
+on button click
+print the  form values in console
+
+call the enquiry-form in the home component
+
+

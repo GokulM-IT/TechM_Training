@@ -1,0 +1,12 @@
+Create an angular SPA using the following feature
+
+1. Components
+2. Parent Child components
+3. Structural and attribute directives
+4. @Input
+5. Basic Routing
+6. Services
+7. Observables
+8. API Calls
+9. Template and Reactive Forms
+10. Pipes

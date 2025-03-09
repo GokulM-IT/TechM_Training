@@ -1,0 +1,17 @@
+<div class="col">
+    <div class="d-block text-decoration-none p-2 p-md-0">
+        <img class="card-img-top" [src]="camp.imageUrl" [alt]="camp.name" crossorigin="anonymous">
+        <div class="d-flex justify-content-between card-body px-2 py-2">
+            <div style="width: 80%;">
+                <p class="card-title mb-0">{{camp.location}}</p>
+                <p class="card-light-text card-text mb-0 fw-normal"><small
+                        class="text-body-secondary">{{camp.name}}</small></p>
+                <p class="card-text card-price">{{camp.price | customCurrency:'INR' }}<small class="fw-light">
+                        {{camp.stayDuration}}</small></p>
+            </div>
+            <div style="width: 20%;">
+                <p class="fw-normal text-end">{{camp.rating | star }}</p>
+            </div>
+        </div>
+    </div>
+</div>

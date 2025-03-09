@@ -1,0 +1,98 @@
+.title {
+    text-align: center;
+    color: black;
+    margin-top: 1rem;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.alert-container {
+    padding: 0 5rem;
+}
+
+.alert {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: #fff;
+}
+
+.enquiries-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.enquiry-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.enquiry-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.enquiry-body {
+    padding: 15px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #333;
+}
+
+.enquiry-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.enquiry-body p {
+    margin-bottom: 8px;
+}
+
+.enquiry-body p strong {
+    font-weight: bold;
+}
+
+.enquiry-body p {
+    line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+    .enquiry-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 767px) {
+    .enquiry-card {
+        width: 100%;
+    }
+}

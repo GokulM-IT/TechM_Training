@@ -1,0 +1,52 @@
+.container {
+    background-color: #ffffff;
+    padding: 30px 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: #333;
+}
+
+.service-card-section {
+    margin-top: 20px;
+}
+
+.app-service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.app-service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.app-service-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+.app-service-card .card-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+.enquiry-form-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.text-center {
+    text-align: center;
+}

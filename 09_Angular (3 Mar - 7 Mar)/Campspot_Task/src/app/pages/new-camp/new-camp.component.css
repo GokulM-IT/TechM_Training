@@ -1,0 +1,110 @@
+#new-campsite-container {
+    padding: 7rem 0;
+}
+
+.common-placeholder::placeholder {
+    font-size: 0.9rem;
+}
+
+.fw-bold {
+    font-size: 1.3rem;
+    color: #201f1f;
+}
+
+.error {
+    color: red;
+}
+
+textarea {
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    resize: none;
+}
+
+.btn-style {
+    background-color: #201f1f;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-style:active {
+    transform: scale(0.9);
+}
+
+.custom-border {
+    border: 1px solid #b0b0b0;
+    border-radius: 10px;
+    box-shadow: none;
+    max-width: 650px;
+}
+
+.custom-hover:hover,
+.custom-hover:focus {
+    border-color: #000000;
+    box-shadow: inset 0 0 0 1px #000000;
+}
+
+@media (max-width: 768px) {
+    .remove-border {
+        border: none !important;
+    }
+
+    .btn-style {
+        font-size: 1.2em !important;
+    }
+
+    #new-campsite-container .custom-hover,
+    #new-campsite-container .custom-border,
+    #new-campsite-container .form-control {
+        font-size: 1em;
+    }
+}
+
+.info {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 320px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background: #D7F1FD;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px -3px #111;
+    position: absolute;
+    top: 6rem;
+    right: 0;
+}
+
+.info__icon {
+    width: 20px;
+    height: 23px;
+    transform: translateY(-2px);
+    margin-right: 8px;
+}
+
+.info__icon path {
+    fill: #509AF8;
+}
+
+.info__title {
+    font-weight: 500;
+    font-size: 14px;
+    color: #0C2A75;
+}
+
+.info__close {
+    width: 20px;
+    height: 26px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.info__close path {
+    fill: #0C2A75;
+}

@@ -1,0 +1,21 @@
+create array of 10 projects object in the api.json file with
+this object structure
+{
+  "id": 1,
+  "name": "Project 1",
+  "description": "Project 1 description",
+  "status": "active",
+  "startDate": "2021-01-01",
+  "endDate": "2021-01-31",
+  "teamSize": 10,
+  "image":"x.jpg"
+}
+
+re run the json server
+
+in the Api service add function to consume the projects endpoint
+
+in the projects page display 
+all the project details
+
+Follow the same approach that we followed for the services

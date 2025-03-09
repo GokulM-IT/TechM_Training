@@ -1,0 +1,76 @@
+#new-campsite-container {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+#login-signup {
+    height: 93vh;
+}
+
+.common-placeholder::placeholder {
+    font-size: 0.9rem;
+}
+
+.error {
+    color: red;
+}
+
+.form-container {
+    margin-top: 7rem;
+}
+
+.fw-bold {
+    font-size: 1.3rem;
+    color: #201f1f;
+}
+
+textarea {
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    resize: none;
+}
+
+.btn-style {
+    background-color: #201f1f;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-style:active {
+    transform: scale(0.9);
+}
+
+.custom-border {
+    border: 1px solid #b0b0b0;
+    border-radius: 10px;
+    box-shadow: none;
+    max-width: 650px;
+    max-height: 350px;
+}
+
+.custom-hover:hover,
+.custom-hover:focus {
+    border-color: #000000;
+    box-shadow: inset 0 0 0 1px #000000;
+}
+
+@media (max-width: 768px) {
+    .remove-border {
+        border: none !important;
+    }
+
+    .btn-style {
+        font-size: 1.2em !important;
+    }
+
+    #new-campsite-container .custom-hover,
+    #new-campsite-container .custom-border,
+    #new-campsite-container .form-control {
+        font-size: 1em;
+    }
+}

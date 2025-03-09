@@ -1,0 +1,14 @@
+<div class="container mb-5">
+  <h3 class="text-center mb-4">Our Services</h3>
+  <div class="row">
+    <app-service-card *ngFor="let service of servicesList" [service]="service" (click)="onServiceClick(service.id)"
+      class="col-md-6 mb-4"></app-service-card>
+  </div>
+</div>
+
+<div class="container">
+  <h3 class="text-center mb-4">Enquiry Form</h3>
+  <div class="enquiry-form-section">
+    <app-enquiry-form></app-enquiry-form>
+  </div>
+</div>
