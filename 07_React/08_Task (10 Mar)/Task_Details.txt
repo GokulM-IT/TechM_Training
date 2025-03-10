@@ -1,0 +1,8 @@
+Create a react application Demonstrate the following thing 
+1. Parent component 
+2. Child component 
+3. Integrating with bootstrap 
+4. Properties 
+5. Calling APIs get Request 
+6. Handling Forms
+ 

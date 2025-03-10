@@ -1,0 +1,15 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2e283e;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
