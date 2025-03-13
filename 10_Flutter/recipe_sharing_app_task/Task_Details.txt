@@ -1,0 +1,25 @@
+Create a flutter application using the following 
+
+concepts
+
+1. Flutter App
+
+2. Scaffold
+
+3. Widgets (Stateful & Stateless)
+
+4. Themes and Styling
+
+5. Event Handling
+
+6. Navigation and routing
+
+7. Transferring Data
+
+8. Layouts
+
+9. Form Handling
+
+10. Databases
+
+ 
