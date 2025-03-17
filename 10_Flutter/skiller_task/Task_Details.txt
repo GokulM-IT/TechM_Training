@@ -1,0 +1,13 @@
+Create a comprehensive Flutter mobile app with a Problem/solution of your choice
+ 
+Ensure you use:-
+
+1. Navigation
+2. Events
+3. Images
+4. Layouts
+5. Database(Firebase)
+6. Localization(Multi language support)
+7. Public APIs if any you find it relevant(optional)
+ 
+Note: No Todo, No Restaurant, No Expenses, No Movie Review, No Books, No IPL
