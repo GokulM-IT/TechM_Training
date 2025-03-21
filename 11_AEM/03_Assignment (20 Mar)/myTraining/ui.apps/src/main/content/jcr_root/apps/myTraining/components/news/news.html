@@ -1,0 +1,26 @@
+<!--<div class="cmp-news">-->
+<!--    <h2 class="cmp-news__title">${properties.title || 'Default News Title'}</h2>-->
+
+<!--    <div data-sly-test="${properties.details}">-->
+<!--        <p><strong>Details:</strong> ${properties.details}</p>-->
+<!--    </div>-->
+
+<!--    <div data-sly-test="${properties.publishedDate}">-->
+<!--        <p><strong>Published Date:</strong> ${properties.publishedDate}</p>-->
+<!--    </div>-->
+
+<!--    <div data-sly-test="${properties.source}">-->
+<!--        <p><strong>Source:</strong> ${properties.source}</p>-->
+<!--    </div>-->
+<!--</div>-->
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"/>
+<sly data-sly-call="${clientLib.css @ categories='myTraining.news'}"/>
+
+<div class="cop-news-component">
+    <h2 class="news-title">${properties.title}</h2>
+    <p class="news-detail">${properties.detail}</p>
+    <p class="news-date">${properties.publishedDate}</p>
+    <p class="news-source">Source: ${properties.source}</p>
+</div>
+<sly data-sly-call="${clientLib.js @ categories='myTraining.news'}"/>
+

@@ -1,0 +1,43 @@
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          jcr:title="News Component"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content jcr:primaryType="nt:unstructured"
+             sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <styles jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cq/gui/components/authoring/dialog/fieldset"
+                    fieldLabel="Component Style"
+                    name="./cq:style">
+                <items jcr:primaryType="nt:unstructured">
+                    <style1 jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/radio"
+                            text="Default"
+                            value=""/>
+                    <style2 jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/radio"
+                            text="Custom News Style"
+                            value="cop-news-component"/>
+                </items>
+            </styles>
+            <title jcr:primaryType="nt:unstructured"
+                   sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                   fieldLabel="News Title"
+                   name="./title"/>
+            <detail jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                    fieldLabel="News Detail"
+                    name="./detail"/>
+            <publishedDate jcr:primaryType="nt:unstructured"
+                           sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                           fieldLabel="Published Date"
+                           name="./publishedDate"/>
+            <source jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    fieldLabel="Source"
+                    name="./source"/>
+        </items>
+    </content>
+</jcr:root>

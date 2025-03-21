@@ -1,0 +1,11 @@
+.cop-news-component h2 {
+    color: green;
+}
+
+.cop-news-component p {
+    color: yellow;
+}
+
+.cop-news-component .news-date {
+    color: blue;
+}

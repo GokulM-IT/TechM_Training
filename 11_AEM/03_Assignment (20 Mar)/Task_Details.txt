@@ -1,0 +1,9 @@
+20-3-25
+1. Create A new component which have news title(should print as h2), news detail(<p>), published date, source create this component using sling model.
+2. Create multi field component(multiple news) using sling model fields: title of new and source of news
+3. Create clientlibs for news component and
+4. Apply Green colour to the heading(h2) and yellow colour to news detail(<p) and date should be black in colour.
+5. Add Component style to add custom style name (cop-news-component)in news component
+6. Create a base page component and add new file as metadata so that it can print og:title, og:description and og:image link that file in base page.html
+7. Create custom page properties saying Global properties and 3 fields should be there as og:title, og :description and og:image path
+8. What is extraclientlib add it this multi field component

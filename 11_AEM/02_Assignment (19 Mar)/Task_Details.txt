@@ -1,0 +1,8 @@
+19-3-25
+1. What is DAM and why we use it?
+2. Create one folder inside our project folder  and follow the path: “/content/dam/myTraining/us/en-us” and upload 2 images and author those images on page using image component as we see today.
+3. What is renditions? Check the renditions for 2 images which we had uploaded
+4. Add two fields in hello world component with name FirstName and Last Name and print the values on hello world.html component  using properties
+5. Give try using @ValueMapValue annotation on HelloWorldModel  sling java model “com.myTraining.core.models.HelloWorldModel”
+6. Why we are using package manager and jar create package for the hello world component and 2 images what we have uploaded there should be 2 packages 1 for dam which is images and 2 one is for helloworld component
+7. Configure replication agent and publish the page from author to publish env(4502(author)—>4503(publish))
