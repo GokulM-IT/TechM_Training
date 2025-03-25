@@ -6,7 +6,7 @@ course details, adding courses to favorites, enrolling in courses, and adding
 new courses. The app is integrated with Firebase for authentication and
 course data management, and uses SQLite to manage favorite courses
 locally. It also supports multi -language localization (English and Tamil) to
-cater to a diverse u ser base. The app features a clean, interactive UI/UX
+cater to a diverse user base. The app features a clean, interactive UI/UX
 design aimed at delivering a professional user experience.
 
 ## App Preview
