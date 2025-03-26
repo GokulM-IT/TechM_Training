@@ -1,0 +1,7 @@
+25-3-25
+1. Create Custom Workflow (my custom workflow) and
+2. Create custom workflow process and print the page title in logs and run this workflow in page so that it can give some metadata in logs
+3. Create Event handler in AEM and print the resource path in logs.
+4. Create sling job to print hello world message in logs
+5. Create one schedular to print the yellow world in logs in every 5 mins through custom configuration using cron expression.
+6. Create 3 users and add them in a group(Dev author create this new group) and give permission to read only for /content and /dam folder only and they should have replication access as well.

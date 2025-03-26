@@ -1,0 +1,15 @@
+24-3-25
+1. Create 5 news article pages under /content/us/en/news/
+  1. All should be unique
+  2. Use News component which we had created previously to provide the title, news detail and published date.
+2. Create Header Experience fragment for header and use these page as menu (name should be news) and apart from that create contact us page and about me page (you can use teaser or image, text, title components to provide some details about journalist on about me page and on contact us page it should be some contact  related details it can have their mobile number office address or email address).
+3. Create footer XF and it could have 4 sections:
+    1. News menu section-can have 4 news article you can use list component for this
+    2. About me section-can have some content and you can use text component
+    3. Contact us section-can have some content and you can use text component
+    4. Social media section-you can use list component for this to provide some social media account references.
+4. Create a custom service to print hello world and call this service from news component sling model and print this value in logs as well.
+5. Create custom configurations where I can provide the 3rd party API for example (https://jsonplaceholder.typicode.com/posts) and I can see the data as JSON. And this data should be print in logs.
+ 
+References:-
+https://github.com/akumar852999/myTraining/tree/main/myTraining
