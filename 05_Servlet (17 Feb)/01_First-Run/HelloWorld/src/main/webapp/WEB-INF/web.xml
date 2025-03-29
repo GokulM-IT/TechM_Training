@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+	id="WebApp_ID" version="5.0">
+	
+	<display-name>HelloWorld</display-name>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>MyServlet</servlet-name>
+		<servlet-class>backend.MyServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet</servlet-name>
+		<url-pattern>/MyServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>backend.LoginServlet</servlet-class>  <!-- Added package if applicable -->
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>  <!-- Added mapping for LoginServlet -->
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>backend.Validation</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/LoginPage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Welcome</servlet-name>
+		<servlet-class>backend.WelcomeUser</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Welcome</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

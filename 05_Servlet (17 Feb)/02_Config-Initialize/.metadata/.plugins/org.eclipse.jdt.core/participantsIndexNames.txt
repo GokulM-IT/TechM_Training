@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\GOKUL M\Desktop\!Servlets Exercise\01_First-Run\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1856974888.index
+\HelloWorld\src\main\java
+C:\Users\GOKUL M\Desktop\!Servlets Exercise\01_First-Run\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1688465784.index
+\HelloWorld\src\main\java
+C:\Users\GOKUL M\Desktop\!Servlets Exercise\02_Config-Initialize\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3034852252.index
+\Config-Initialize\src\main\java

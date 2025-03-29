@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\GOKUL M\Desktop\!Servlets Exercise\02_Config-Initialize\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3142989570.index
+2588541785.index
+4217439905.index
+3034852252.index
+1637336382.index
+3566839997.index
