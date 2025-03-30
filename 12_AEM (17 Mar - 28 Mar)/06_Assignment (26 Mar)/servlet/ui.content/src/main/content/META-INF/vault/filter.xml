@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/servlet" mode="merge"/>
+    <filter root="/content/servlet" mode="merge"/>
+    <filter root="/content/dam/servlet" mode="merge">
+        <exclude pattern="/content/dam/servlet(/.*)?"/>
+        <include pattern="/content/dam/servlet/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/servlet/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/servlet" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,13 @@
+26-3-25
+1. Create SampleServlet extend the SlingAllMethod Servlet and register it using resourceType
+2. Create CreatePageServlet extend the SlingSafeMethod Servlet and register it using path
+3. Take page name from user and create pages in AEM using above servlet
+4. Use page Manager API's for above task.
+5. Create one SearchServlet to search the content using PredicateMap to search the content from pages
+
+References:-
+https://medium.com/@manumathew28.94/query-builder-aem-5869a1850c85 
+
+Page Creation URL:-
+http://localhost:4502/bin/createNewPage?pageName=testPage
+http://localhost:4502/bin/createPage?pageName=my-new-page

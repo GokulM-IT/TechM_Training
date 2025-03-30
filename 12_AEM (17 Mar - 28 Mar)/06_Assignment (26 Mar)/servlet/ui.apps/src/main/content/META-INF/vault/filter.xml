@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/servlet/clientlibs"/>
+    <filter root="/apps/servlet/components"/>
+    <filter root="/apps/servlet/i18n"/>
+    <filter root="/apps/sling" />
+</workspaceFilter>
