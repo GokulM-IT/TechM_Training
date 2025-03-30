@@ -28,7 +28,7 @@ design aimed at delivering a professional user experience.
   </tr>
   <tr>
     <td align="center">
-      <img src="https://res.cloudinary.com/dhgeqswqq/image/upload/v1742237593/Language_Changed_Home_h7gmfw.png" width="200" alt="Home Screen">
+      <img src="https://res.cloudinary.com/dhgeqswqq/image/upload/v1743317818/Tamil_Language_Home_ddoowd.png" width="200" alt="Home Screen">
     </td>
     <td align="center">
       <img src="https://res.cloudinary.com/dhgeqswqq/image/upload/v1742237582/Course_Details_hju9hw.png" width="200" alt="Recipe Detail">
