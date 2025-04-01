@@ -39,7 +39,7 @@ form.addEventListener('submit', async (event) => {
     const config = { params: { s: query } }
 
     try {
-        const response = await axios.get("https://www.omdbapi.com/?i=tt3896198&apikey=df6d6f0e", config)
+        const response = await axios.get("https://www.omdbapi.com/?i=tt3896198&apikey=your_api_here", config)
         setShowImage(response.data.Search)
     } catch (error) {
         console.log('Error fetching data : ', error)
