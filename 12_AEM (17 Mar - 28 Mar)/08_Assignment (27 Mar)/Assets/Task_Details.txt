@@ -1,0 +1,10 @@
+27-3-25
+1. What is MSM, blueprint, live copy and rollout?
+2. What is language copy?
+3. Create a site using MSM and us en should be source
+Reference:
+https://medium.com/@toimrank/aem-multi-site-manager-cd73a9077cba
+4. Create this page https://www.mcdonalds.com/us/en-us/about-our-food.html and author the page using components use the content/images from above page.
+5. Setup the dispatcher on your local references:
+http://aemtutorials.com/dispatcher-setup-in-aem-6-4/
+https://www.youtube.com/watch?v=OtIBRyKxhzY&list=PLEaEQSM_Y4tnHRdMB9PRXgP_AmbeUJkXG&index=3 

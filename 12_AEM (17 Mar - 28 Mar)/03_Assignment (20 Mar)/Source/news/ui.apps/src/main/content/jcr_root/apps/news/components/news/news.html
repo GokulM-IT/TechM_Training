@@ -1,0 +1,11 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"/>
+<sly data-sly-call="${clientLib.css @ categories='news.news'}"/>
+
+<div class="cop-news-component">
+    <h2 class="news-title">${properties.title}</h2>
+    <p class="news-detail">${properties.detail}</p>
+    <p class="news-date">${properties.publishedDate}</p>
+    <p class="news-source">Source: ${properties.source}</p>
+</div>
+<sly data-sly-call="${clientLib.js @ categories='news.news'}"/>
+

@@ -1,0 +1,7 @@
+21-03-2025
+1. Create News room page component using base page component
+2. Create custom page property as NEWS configurations where I can author the default news image. Read More CTA for News Article
+3. Create News room template type by using news room page component
+4. Create News Room Template using news room template type.
+5. Apply the styling to news/ hello world component from ui.frontend folder
+6. Additionally you can create custom style to apply above styling to hello world or news component.

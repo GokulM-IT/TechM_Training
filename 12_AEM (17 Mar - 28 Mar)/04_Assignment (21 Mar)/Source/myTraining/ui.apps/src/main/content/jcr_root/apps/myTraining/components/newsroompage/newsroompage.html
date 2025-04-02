@@ -1,0 +1,15 @@
+<div class="news-room">
+    <h2>Latest News</h2>
+    <div class="news-list">
+        <sly data-sly-use.model="com.myTraining.core.models.NewsRoomModel">
+            <sly data-sly-list.article="${model.newsArticles}">
+                <div class="news-card">
+                    <img src="${article.imagePath}" alt="${article.title}">
+                    <h3>${article.title}</h3>
+                    <p>${article.description}</p>
+                    <a href="${article.pagePath}">Read More</a>
+                </div>
+            </sly>
+        </sly>
+    </div>
+</div>

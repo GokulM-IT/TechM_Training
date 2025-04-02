@@ -1,0 +1,15 @@
+.cop-news-component .news-title {
+    color: green;
+}
+
+.cop-news-component .news-detail {
+    color: black;
+}
+
+.cop-news-component .news-date {
+    color: black;
+}
+
+.cop-news-component .news-source {
+    color: blue
+}
