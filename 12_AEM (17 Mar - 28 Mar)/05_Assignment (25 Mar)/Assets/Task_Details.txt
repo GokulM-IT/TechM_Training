@@ -5,3 +5,9 @@
 4. Create sling job to print hello world message in logs
 5. Create one schedular to print the yellow world in logs in every 5 mins through custom configuration using cron expression.
 6. Create 3 users and add them in a group(Dev author create this new group) and give permission to read only for /content and /dam folder only and they should have replication access as well.
+
+To See Logs:-
+http://localhost:4502/system/console/slinglog
+
+To Change User Permissions:-
+http://localhost:4502/useradmin

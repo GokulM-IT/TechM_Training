@@ -13,3 +13,6 @@
  
 References:-
 https://github.com/akumar852999/myTraining/tree/main/myTraining
+
+To See logs:-
+http://localhost:4502/system/console/slinglog

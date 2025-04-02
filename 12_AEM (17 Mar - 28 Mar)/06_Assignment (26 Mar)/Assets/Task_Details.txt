@@ -10,4 +10,6 @@ https://medium.com/@manumathew28.94/query-builder-aem-5869a1850c85
 
 Page Creation URL:-
 http://localhost:4502/bin/createNewPage?pageName=testPage
-http://localhost:4502/bin/createPage?pageName=my-new-page
+
+Search URL (PredicateMap):-
+http://localhost:4502/bin/searchContent?query=custom-testPage
