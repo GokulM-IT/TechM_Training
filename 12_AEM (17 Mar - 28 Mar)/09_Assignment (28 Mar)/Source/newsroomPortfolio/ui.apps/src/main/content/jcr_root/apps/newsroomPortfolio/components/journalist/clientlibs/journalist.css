@@ -1,0 +1,39 @@
+.journalist {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.journalist__image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.journalist__content h2 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.journalist__content h3 {
+    margin-top: 15px;
+}
+
+.journalist__content ul,
+.journalist__content ol {
+    margin-left: 20px;
+}
+
+.journalist__content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.journalist__content a:hover {
+    text-decoration: underline;
+}

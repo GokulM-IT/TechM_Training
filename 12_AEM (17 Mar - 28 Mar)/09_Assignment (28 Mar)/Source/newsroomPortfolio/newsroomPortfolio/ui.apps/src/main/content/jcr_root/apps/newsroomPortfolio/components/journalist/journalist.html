@@ -1,0 +1,14 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.all @ categories='myTraining.journalist'}" />
+
+<sly data-sly-use.journalist="com.newsroomPortfolio.core.models.JournalistModel"/>
+
+<div class="journalist">
+    <div class="journalist__image" data-sly-test="${journalist.image}">
+        <img src="${journalist.image}" alt="${journalist.name}" />
+    </div>
+    <div class="journalist__content">
+        <h2 data-sly-test="${journalist.name}">${journalist.name}</h2>
+        <p data-sly-test="${journalist.bio}">${journalist.bio}</p>
+    </div>
+</div>
