@@ -1,0 +1,26 @@
+Newsroom Portfolio Website Assignment (28-03-2025)
+
+1. Header
+- Use OOTB header component and create news(5), about me, contact me and homepage these pages should come in header with proper styling and make sure books have a drop-down so news should come
+
+2. Footer sections
+- About me
+- Contact me
+- Latest 5 news-list with hyperlink should be open in new tab
+- Social media section
+
+3. Home page
+- Use teaser component to display some award ceremony for journalist so that it could have image title and some description and one CTA (which will link to that page where user can see the entire news of that award. Page will be created and authored on CTA)
+
+4. News page
+- Create a NewsRoom component  which will get the News page as parent path (news page should be authored ) and that component should fetch all the news which  you have created under /contact/news folder and make sure all of the books should be placed under /content/news folder
+- Now create news article pages under /content/news hierarchy and author the page with title, image and text component. So that when the newsRoom component is authored it fetches these properties from each page to show on the news page as cards and each card should have Title, news Detail and image and make sure each card should have unique title, description and image.
+
+5. About me page
+- Use journalist component to provide some information about journalist only this component should be used on this page.
+
+6. Contact me page
+- We can use text or teaser components to provide contact details to connect with the author or some social media profile links so anybody can follow him on Social Media platform.
+
+Note:-
+- Header and footer should be used at template level so every page can use it. And to create the home page we can use the content page(OOTB template) but for the books page we have to use the book page template that was given as part of assignment previously.

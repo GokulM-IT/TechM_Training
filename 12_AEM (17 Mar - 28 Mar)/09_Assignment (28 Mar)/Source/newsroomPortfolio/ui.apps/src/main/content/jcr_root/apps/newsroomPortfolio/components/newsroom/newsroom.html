@@ -1,0 +1,14 @@
+<sly data-sly-use.newsroomModel="com.newsroomPortfolio.core.models.NewsRoomModel"/>
+<div class="newsroom">
+    <h2>Latest News</h2>
+    <ul>
+        <sly data-sly-list.newsItem="${newsroomModel.newsItems}">
+            <li class="news-card">
+                <img src="${newsItem.image}" alt="${newsItem.title}">
+                <h3>${newsItem.title}</h3>
+                <p>${newsItem.description}</p>
+                <a href="${newsItem.pagePath}.html">Read More</a>
+            </li>
+        </sly>
+    </ul>
+</div>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root
+        xmlns:sling="http://www.sling.apache.org/jcr/sling/1.0"
+        xmlns:cq="http://www.day.com/jcr/cq/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        jcr:primaryType="cq:Dialog"
+        cq:dialogMode="floating"
+        jcr:title="Journalist Properties">
+
+    <content jcr:primaryType="nt:unstructured"
+             sling:resourceType="granite/ui/components/coral/foundation/form">
+        <items jcr:primaryType="nt:unstructured">
+
+            <name jcr:primaryType="nt:unstructured"
+                  sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                  fieldLabel="Journalist Name"
+                  name="./name"/>
+
+            <image jcr:primaryType="nt:unstructured"
+                   sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                   fieldLabel="Journalist Image"
+                   name="./image"
+                   rootPath="/content/dam"/>
+
+            <bio jcr:primaryType="nt:unstructured"
+                 sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                 fieldLabel="Journalist Bio"
+                 name="./bio"/>
+
+        </items>
+    </content>
+
+</jcr:root>
