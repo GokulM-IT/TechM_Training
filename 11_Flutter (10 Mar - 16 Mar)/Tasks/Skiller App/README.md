@@ -23,12 +23,12 @@ design aimed at delivering a professional user experience.
       <img src="https://res.cloudinary.com/dhgeqswqq/image/upload/v1742237582/Register_jgqpji.png" width="200" alt="Edit Recipe">
     </td>
     <td align="center">
-      <img src="https://res.cloudinary.com/dhgeqswqq/image/upload/v1742237589/Home_ipwfgd.png" width="200" alt="Add Recipe">
+      <img src="https://res.cloudinary.com/dhgeqswqq/image/upload/v1744830281/Home_qgvdbd.png" width="200" alt="Add Recipe">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://res.cloudinary.com/dhgeqswqq/image/upload/v1743317818/Tamil_Language_Home_ddoowd.png" width="200" alt="Home Screen">
+      <img src="https://res.cloudinary.com/dhgeqswqq/image/upload/v1744830281/Language_Changed_Home_moxpce.png" width="200" alt="Home Screen">
     </td>
     <td align="center">
       <img src="https://res.cloudinary.com/dhgeqswqq/image/upload/v1742237582/Course_Details_hju9hw.png" width="200" alt="Recipe Detail">
